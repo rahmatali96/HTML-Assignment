@@ -1,0 +1,114 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+/* Navigation Bar styles */
+.navbar {
+    height: 50px;
+    font-size: 24px;
+    align-items: center;
+}
+
+/* Navigation list styles */
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+/* Navigation link styles */
+nav ul li a {
+    color: black;
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    line-height: 20px;
+    text-decoration: none;
+}
+
+/* User Info Section styles */
+.userinfo {
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.userinfo .profile_content {
+    width: 50%;
+    height: 400px;
+    text-align: left;
+    margin-left: 10%;
+}
+
+.userinfo .profile_image {
+    width: 40%;
+    height: 400px;
+}
+
+/* Heading styles */
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+/* Common styles for Header, Section, Footer */
+header, section, footer {
+    margin-bottom: 40px;
+}
+
+header {
+    text-align: center;
+}
+
+/* Image styles */
+img {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Section styles */
+section {
+    margin: 50px 0;
+}
+
+/* Content Section styles */
+.content {
+    display: flex;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.right p, .left p {
+    margin: 20px 50px;
+}
+
+/* Navigation styles */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+}
